@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .rounded-circle {
+    @apply border-radius: 50%;
+  }
+}
